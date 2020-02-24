@@ -19,7 +19,6 @@ import com.example.RESTdemo.service.EmployeeService;
 @RequestMapping("/api")
 public class EmployeeRestController {
 
-	// @Autowired
 	private EmployeeService employeeService;
 
 	@Autowired
